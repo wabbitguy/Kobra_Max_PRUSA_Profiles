@@ -18,3 +18,5 @@ PLA: ERYONE, eSun, 3D Solutech, Quantum 3D
 TPU: SainSmart, 3D Solutech, ERYONE, Overture (needs higher temp)
 
 HIPS: 3D Printing Canada
+
+The SVG and STL are the custom graphic/model for the bed. Put them in a folder where they own move and then in Printer Settings-->General-->Bed Shape, you can select the two files.
