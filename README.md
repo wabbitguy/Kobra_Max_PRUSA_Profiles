@@ -11,6 +11,8 @@ If you don't change the eSteps, keep in mind the Extrusion Multiplier could be 5
 
 Various brands of filaments were used in testing these profiles. The profile where the temperature is heavily dependant on the brand is TPU. I tested with SainSmart and ERYONE. They print fine at the profile temperature. However with Overture, it needs to be a lot hotter, as in the 218C range.
 
+ABS: PRUSA, kexcelled
+
 PETG: Filaments.ca, ERYONE, Polymaker, GEEETech
 
 PLA: ERYONE, eSun, 3D Solutech, Quantum 3D
