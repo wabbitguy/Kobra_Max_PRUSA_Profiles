@@ -9,6 +9,20 @@ M92 X80.00 Y80.00 Z400.00 E405.00
 
 If you don't change the eSteps, keep in mind the Extrusion Multiplier could be 5% less.
 
+All profiles created with PRUSA SLICER 2.5.0: https://github.com/prusa3d/PrusaSlicer/releases/tag/version_2.5.0
+
+To use the profiles, select the green "CODE" button --> Download Zip. Save to your hard drive and then unzip.
+In PRUSA Slicer: File --> Import --> Import Config and select the config.ini you want.
+
+For the bed:
+
+These are the graphic and STL files for the Chiron Bed that can be used in PRUSA Slicer
+
+To use them move them to are place where they won't get lost or replaced on your hard drive. Run PRUSA Slicer - Printer Settings --> General --> Bed Shape --> Set In the dialog window, Load Texture and select the PNG file Select Load Model and select the STL for the bed.
+
+Note the bed is only partially transparent.
+
+
 Various brands of filaments were used in testing these profiles. The profile where the temperature is heavily dependant on the brand is TPU. I tested with SainSmart and ERYONE. They print fine at the profile temperature. However with Overture, it needs to be a lot hotter, as in the 218C range.
 
 ABS: PRUSA, kexcelled
