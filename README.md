@@ -38,3 +38,7 @@ HIPS: 3D Printing Canada
 The SVG and STL are the custom graphic/model for the bed. Put them in a folder where they own move and then in Printer Settings-->General-->Bed Shape, you can select the two files.
 
 Sept 9 - 2022 - Added DRAFT print profile, created with PRUSA Slicer 2.5.0. Layer height 0.3, fast printing speed, uses volumetric Pressure Equaliizer. To use select the draft prifle, then for the Filament and Printer settings select the filament type you want to use. Hence the DRAFT profile (print settings only) is generic for all filaments. For the higher speed and thicker layer height, you may need to increase the hot end temperature by 5%. Do not recomend draft profile for TPU.
+
+Aug 2023 - With PRUSA Slicer 2.6.0 you don't need the Kobra_Bed.stl file any more.
+
+![Kobra_Bed](https://github.com/wabbitguy/Kobra_Max_PRUSA_Profiles/assets/8953419/caa9498c-5891-4aad-8385-51e7826586dd)
