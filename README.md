@@ -1,6 +1,34 @@
 # Anycubic_Kobra_Max
 PRUSA Profiles for AnyCubic Kobra Max
 
+# UPDATED Install Method for PRUSA Slicer 2.6.X
+
+PRUSA Slicer has a nasty habit of adding names and stuff when you import an .INI profile. There's a way to get around that and just means you install the profiles from a folder in this archive to the corresponding folder in your PRUSA configuration and don't do a File Import Config..
+
+Download the archive, then run PRUSA Slicer. In PRUSA Slicer Help-->Show COnfiguration Folder
+
+![Configuration_Folder](https://github.com/wabbitguy/Kobra_Max_PRUSA_Profiles/assets/8953419/488c42af-68b2-4b71-ab35-8fc1747299a9)
+
+This will expose the configuration folders PRUSA Slicer uses.
+
+![Folders](https://github.com/wabbitguy/Kobra_Max_PRUSA_Profiles/assets/8953419/2f63e255-92e9-42db-accb-b471b2ed57c0)
+
+QUIT PRUSA SLICER
+
+From the download, copy the CONTENTS of the "filament", "print" and "printer" folders to the folders of the SAME name in the configuration folders. You do not drag and drop folders, you only want the contents of the folders.
+
+Put the KobraMax_Bed.png file in an area you can find on your computer.
+
+Run PRUSA Slicer. You will now have all the profiles for the Kobra Max for various filament types.
+
+If you are using stock firmware, you will probably need to drop the hot end temps in the Filament settings tab because AnyCubic uses the wrong thermistor in their firmware (it runs about 10 - 20C too hot).
+
+The bed SVG is used in "Printer Settings-->General-->Bed Shape-->Texture. Load, ok and then remember to save the profile.
+
+![bed](https://github.com/wabbitguy/Kobra_Max_PRUSA_Profiles/assets/8953419/e5944a6b-9b72-4795-8a27-96951c2d5ef0)
+
+# Old Profile Install
+
 The extrusion mutiplier for these profiles is based on a 100mm feed. My stock Kobra Max had the extrusion eSteps set to 95%. The stock value on my Max was 405. When I calibrated it I ended up with 419.88
 
 You can change the eSteps easily with PRONTERFACE by issuing an M92 E###.## GCODE and then sending an M500 to save the new value in EPROM. To see the stock value use PRONTERFACE and send an M503 GCODE. Then look for the following line:
