@@ -1,6 +1,8 @@
 # Anycubic_Kobra_Max
 PRUSA Profiles for AnyCubic Kobra Max
 
+These profiles were designed to be used with an updated firmware version (it's in this Github site current version is 1.8.4) but as noted if used with stock firmware, be aware your temps will then fall into the standard filament ranges (195 -215 for PLA, 215 - 235 for PETG, etc). For TPU, be aware temperatures will be quite different depending on the brand. Overture TPU loves heat (220C range). ERYONE and SainSmart don't (204C range).
+
 # UPDATED Install Method for PRUSA Slicer 2.6.X
 
 PRUSA Slicer has a nasty habit of adding names and stuff when you import an .INI profile. There's a way to get around that and just means you install the profiles from a folder in this archive to the corresponding folder in your PRUSA configuration and don't do a File Import Config..
